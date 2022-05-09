@@ -10,4 +10,8 @@
 
 - [The link to the original game](https://portfolio-netlify2.netlify.app/)
 
-- Game will be built by me from the scratch and modified
+- Game will be built by me from the scratch and modified.
+
+### Stages of the game
+
+1. ![Beginning](./img1.png)
