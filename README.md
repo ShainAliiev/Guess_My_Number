@@ -2,7 +2,7 @@
 
 - This version of game is played by **two players** (you against the computer).
 
-- **The winner** is the one who has a higher score. Background color of the screen changes to blue (Hex #4256e9) once **a win** state has been reached (initial background color is Hex #c9bc05).
+- **The winner** is the one who has a higher score. Background color of the screen changes to blue (Hex #4256e9) once **a win** state has been reached. Initial background color is Hex #c9bc05.
 
 - **One or multiple rounds** to play is available with the highest score saved on the screen.
 
