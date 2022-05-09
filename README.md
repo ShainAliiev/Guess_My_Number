@@ -12,6 +12,6 @@
 
 - Game will be built by me from the scratch and modified.
 
-### Stages of the game
+### Stages of the game:
 
-1. Beginning![Beginning](./img1.png)
+1. Beginning![](./img1.png)
