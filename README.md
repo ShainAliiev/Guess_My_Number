@@ -14,4 +14,4 @@
 
 ### Stages of the game
 
-1. ![Beginning](./img1.png)
+![1. Beginning](./img1.png)
