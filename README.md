@@ -14,7 +14,7 @@
 
 ### Stages of the game:
 
-1. Beginning![](./img1.png)
-2. Player1 starts and gets it wrong![](./img2.png)
-3. Player2 proceeds and gets it wrong![](./img3.png)
-4. Player1 gives it another shot and wins![](./img4.png)
+1. Beginning.![](./img1.png)
+2. Player 1 starts and gets it wrong.![](./img2.png)
+3. Player 2 proceeds and gets it wrong.![](./img3.png)
+4. Player 1 gives it another try and wins.![](./img4.png)
