@@ -8,6 +8,6 @@
 
 ## The Original Guess My Number Game
 
-- [the link to the original game](https://portfolio-netlify2.netlify.app/)
+- [The link to the original game](https://portfolio-netlify2.netlify.app/)
 
-- the game will be built by me from the scratch and modified
+- Game will be built by me from the scratch and modified
