@@ -18,3 +18,4 @@
 2. Player 1 starts and gets it wrong.![](./img2.png)
 3. Player 2 proceeds and gets it wrong.![](./img3.png)
 4. Player 1 gives it another try and wins.![](./img4.png)
+5. Flowchart.![](./img5.png)
