@@ -1,0 +1,63 @@
+.bodyContainer {
+  border: 1px solid black;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-areas:
+    "header header header header header"
+    "empty1 ad1 ad1 ad1 empty4"
+    "empty1 ad2 ad2 ad2 empty4"
+    "empty1 ad3 ad3 ad3 empty4"
+    "empty1 footer footer footer empty4";
+}
+
+.child {
+  box-shadow: 1px 1px 1px black;
+  margin: 1%;
+}
+
+#header {
+  grid-area: header;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#boxOne {
+  grid-area: ad1;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#boxTwo {
+  grid-area: ad2;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#boxThree {
+  grid-area: ad3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+button {
+  display: block;
+  margin: 10px;
+}
+
+#input1 {
+  width: 65px;
+  text-align: center;
+}
