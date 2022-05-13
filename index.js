@@ -9,12 +9,23 @@ const pl2score = document.querySelector("#pl2score");
 const high = document.getElementById("high");
 const highscore = document.querySelector("#highscore");
 
+// add and remove classes
+const body = document.querySelector("body");
+
 //const div = document.createElement("div");
 
+let number = Math.floor(Math.random() * 5) + 1;
+console.log(number);
+
 again.addEventListener("click", function () {
-  const number = Math.floor(Math.random() * 5) + 1;
+  "";
+
+  let number = Math.floor(Math.random() * 5) + 1;
+
+  body.classList.remove("bg");
   question.textContent = "?";
   pl1score.textContent = "Player1-  20";
+  pl2score.textContent = "Player1-  20";
   input1.value = "";
   input2.textContent = "";
   console.log(number);
@@ -28,8 +39,9 @@ again.addEventListener("click", function () {
 
     if (Number(input1.value) === number) {
       question.textContent = number;
-      high.textContent = "Player1 Won!";
+      high.textContent = "Player1 Wins!";
       highscore.textContent = `High score-  ${i}`;
+      body.classList.add("bg");
     } else if (Number(input1.value) > number) {
       i--;
       high.textContent = "Too high!";
@@ -39,9 +51,10 @@ again.addEventListener("click", function () {
         let number2 = Math.floor(Math.random() * 5) + 1;
         input2.textContent = number2;
         if (number2 === number) {
-          high.textContent = "Player2 Won!";
+          high.textContent = "Player2 Wins!";
           highscore.textContent = `High score- ${i1}`;
           question.textContent = number;
+          body.classList.add("bg");
         } else if (number2 > number) {
           high.textContent = "Too high!";
           i1--;
@@ -60,9 +73,10 @@ again.addEventListener("click", function () {
         let number2 = Math.floor(Math.random() * 5) + 1;
         input2.textContent = number2;
         if (number2 === number) {
-          high.textContent = "Player2 Won!";
+          high.textContent = "Player2 Wins!";
           highscore.textContent = `High score- ${i1}`;
           question.textContent = number;
+          body.classList.add("bg");
         } else if (number2 > number) {
           high.textContent = "Too high!";
           i1--;

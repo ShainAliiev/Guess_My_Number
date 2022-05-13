@@ -1,8 +1,47 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap");
+
+body {
+  background-color: #c9bc05;
+  font-family: Orbitron;
+  color: white;
+}
+
+#title {
+  font-size: 25pt;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+}
+
+#again {
+  margin-top: -30px;
+}
+
+#between {
+  font-size: small;
+  /* margin-right: -240px; */
+  margin-top: -50px;
+}
+
+#question {
+  padding-top: 5px;
+  margin-top: 50px;
+  font-size: 36pt;
+  text-align: center;
+  background-color: #eae15f;
+  height: 70px;
+  width: 70px;
+  color: black;
+}
+
 .bodyContainer {
   border: 1px solid black;
   width: 100vw;
   height: 100vh;
   display: grid;
+  /* grid-column-gap: 400px; */
   grid-template-areas:
     "header header header header header"
     "empty1 ad1 ad1 ad1 empty4"
@@ -60,4 +99,16 @@ button {
 #input1 {
   width: 65px;
   text-align: center;
+}
+
+#input2 {
+  border: 2px solid white;
+  width: 77px;
+  height: 21px;
+
+  text-align: center;
+}
+
+.bg {
+  background-color: #4256e9;
 }
