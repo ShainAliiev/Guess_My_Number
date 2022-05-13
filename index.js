@@ -14,9 +14,10 @@ const body = document.querySelector("body");
 
 //const div = document.createElement("div");
 
-let number = Math.floor(Math.random() * 5) + 1;
+let number = Math.floor(Math.random() * 14) + 1;
 let i = 20;
 let i1 = 20;
+console.log(number);
 
 check.addEventListener("click", function () {
   //div.textContent = input1.value;
@@ -33,7 +34,7 @@ check.addEventListener("click", function () {
     pl1score.textContent = `Player1-  ${i} `;
 
     setTimeout(() => {
-      let number2 = Math.floor(Math.random() * 5) + 1;
+      let number2 = Math.floor(Math.random() * 14) + 1;
       input2.textContent = number2;
       if (number2 === number) {
         high.textContent = "Player2 Wins!";
@@ -55,7 +56,7 @@ check.addEventListener("click", function () {
     high.textContent = "Too low!";
     pl1score.textContent = `Player1-  ${i}`;
     setTimeout(() => {
-      let number2 = Math.floor(Math.random() * 5) + 1;
+      let number2 = Math.floor(Math.random() * 14) + 1;
       input2.textContent = number2;
       if (number2 === number) {
         high.textContent = "Player2 Wins!";
@@ -78,7 +79,7 @@ check.addEventListener("click", function () {
 again.addEventListener("click", function () {
   i = 20;
   i1 = 20;
-  number = Math.floor(Math.random() * 5) + 1;
+  number = Math.floor(Math.random() * 14) + 1;
   body.classList.remove("bg");
   question.textContent = "?";
   pl1score.textContent = `Player1-  ${i}`;
