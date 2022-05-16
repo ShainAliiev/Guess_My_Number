@@ -9,7 +9,7 @@ body {
 }
 
 #title {
-  font-size: 25pt;
+  font-size: 30pt;
   font-weight: 500;
   text-align: center;
   color: white;
@@ -23,16 +23,17 @@ body {
   font-size: small;
   /* margin-right: -240px; */
   margin-top: -50px;
+  color: black;
 }
 
 #question {
   padding-top: 5px;
   margin-top: 50px;
-  font-size: 36pt;
+  font-size: 40pt;
   text-align: center;
   background-color: #eae15f;
-  height: 70px;
-  width: 70px;
+  height: 80px;
+  width: 80px;
   color: black;
 }
 
@@ -97,18 +98,57 @@ button {
 }
 
 #input1 {
-  width: 65px;
+  width: 75px;
+  height: 21px;
   text-align: center;
+  background-color: #c9bc05;
+  color: white;
+  border: 3px solid white;
+  padding-top: 3px;
+
+  font-family: "Orbitron";
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 20px;
 }
 
 #input2 {
-  border: 2px solid white;
-  width: 77px;
-  height: 21px;
+  border: 3px solid white;
+  width: 80px;
+  height: 24px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 20px;
 
   text-align: center;
 }
 
 .bg {
   background-color: #4256e9;
+}
+
+.button {
+  font-weight: bold;
+  border-radius: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: none;
+  transition: background-color 0.15s;
+  color: 0.15s;
+}
+
+.button:hover {
+  background-color: rgb(13, 13, 239);
+  color: azure;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.button:active {
+  opacity: 0.5;
+}
+
+#high {
+  color: rgb(0, 0, 0);
 }
